@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FastNet</string>
+    <string name="description_info">Инфо</string>
+    <string name="request_permission">Приложение требует доступ к камере</string>
+    <string name="camera_error">Этот девайс не поддерживает Camera API</string>
+    <string name="toggle_turn_on">NN:Вкл</string>
+    <string name="toggle_turn_off">NN:Выкл</string>
+    <string name="toggle">Использование NNAPI</string>
+    <string name="tflite">tflite</string>
+    <string name="nnapi">NNAPI</string>
+    <string name="threads">Потоки:</string>
+
+    <string name="model">Модель:</string>
+    <string-array name="models">
+        <item>UINT8</item>
+        <item>FLOAT</item>
+    </string-array>
+
+    <string name="device">Устройство:</string>
+    <string-array name="devices">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+</resources>
